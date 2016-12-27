@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4048D9CD161F1E390063D354 /* ParametersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048D9CB161F1E390063D354 /* ParametersViewController.m */; };
+		4048D9CE161F1E390063D354 /* ParametersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4048D9CC161F1E390063D354 /* ParametersViewController.xib */; };
+		4048D9D0161F1E550063D354 /* parameters@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4048D9CF161F1E550063D354 /* parameters@2x.png */; };
+		40B3DE42161C303C009292C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B3DE41161C303C009292C3 /* UIKit.framework */; };
+		40B3DE44161C303C009292C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B3DE43161C303C009292C3 /* Foundation.framework */; };
+		40B3DE46161C303C009292C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B3DE45161C303C009292C3 /* CoreGraphics.framework */; };
+		40B3DE4C161C303C009292C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE4A161C303C009292C3 /* InfoPlist.strings */; };
+		40B3DE4E161C303C009292C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE4D161C303C009292C3 /* main.m */; };
+		40B3DE52161C303C009292C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE51161C303C009292C3 /* AppDelegate.m */; };
+		40B3DE54161C303C009292C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE53161C303C009292C3 /* Default.png */; };
+		40B3DE56161C303D009292C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE55161C303D009292C3 /* Default@2x.png */; };
+		40B3DE58161C303D009292C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE57161C303D009292C3 /* Default-568h@2x.png */; };
+		40B3DE5B161C303D009292C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE5A161C303D009292C3 /* ViewController.m */; };
+		40B3DE5E161C303D009292C3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE5C161C303D009292C3 /* ViewController.xib */; };
+		40B3DE82161DBC1B009292C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B3DE81161DBC1B009292C3 /* AudioToolbox.framework */; };
+		40B3DE87161DC328009292C3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE83161DC328009292C3 /* background@2x.png */; };
+		40B3DE88161DC328009292C3 /* black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE84161DC328009292C3 /* black@2x.png */; };
+		40B3DE89161DC328009292C3 /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE85161DC328009292C3 /* blank@2x.png */; };
+		40B3DE8A161DC328009292C3 /* white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE86161DC328009292C3 /* white@2x.png */; };
+		40B3DE8D161DC5E5009292C3 /* hisTurn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE8B161DC5E5009292C3 /* hisTurn@2x.png */; };
+		40B3DE8E161DC5E5009292C3 /* yourTurn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE8C161DC5E5009292C3 /* yourTurn@2x.png */; };
+		40B3DE90161DC8F7009292C3 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE8F161DC8F7009292C3 /* icon144.png */; };
+		40B3DE92161DCBB4009292C3 /* landing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE91161DCBB4009292C3 /* landing@2x.png */; };
+		40B3DE94161DCBBA009292C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4048D9CA161F1E390063D354 /* ParametersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametersViewController.h; sourceTree = "<group>"; };
+		4048D9CB161F1E390063D354 /* ParametersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametersViewController.m; sourceTree = "<group>"; };
+		4048D9CC161F1E390063D354 /* ParametersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParametersViewController.xib; sourceTree = "<group>"; };
+		4048D9CF161F1E550063D354 /* parameters@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parameters@2x.png"; sourceTree = "<group>"; };
+		4048D9D1161F20C50063D354 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		40B3DE3D161C303C009292C3 /* virusGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virusGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B3DE41161C303C009292C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40B3DE43161C303C009292C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40B3DE45161C303C009292C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40B3DE49161C303C009292C3 /* virusGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "virusGame-Info.plist"; sourceTree = "<group>"; };
+		40B3DE4B161C303C009292C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40B3DE4D161C303C009292C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40B3DE4F161C303C009292C3 /* virusGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "virusGame-Prefix.pch"; sourceTree = "<group>"; };
+		40B3DE50161C303C009292C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40B3DE51161C303C009292C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40B3DE53161C303C009292C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		40B3DE55161C303D009292C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		40B3DE57161C303D009292C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		40B3DE59161C303D009292C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40B3DE5A161C303D009292C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40B3DE5D161C303D009292C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		40B3DE81161DBC1B009292C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		40B3DE83161DC328009292C3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		40B3DE84161DC328009292C3 /* black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black@2x.png"; sourceTree = "<group>"; };
+		40B3DE85161DC328009292C3 /* blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank@2x.png"; sourceTree = "<group>"; };
+		40B3DE86161DC328009292C3 /* white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white@2x.png"; sourceTree = "<group>"; };
+		40B3DE8B161DC5E5009292C3 /* hisTurn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hisTurn@2x.png"; sourceTree = "<group>"; };
+		40B3DE8C161DC5E5009292C3 /* yourTurn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yourTurn@2x.png"; sourceTree = "<group>"; };
+		40B3DE8F161DC8F7009292C3 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		40B3DE91161DCBB4009292C3 /* landing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing@2x.png"; sourceTree = "<group>"; };
+		40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B3DE3A161C303C009292C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B3DE82161DBC1B009292C3 /* AudioToolbox.framework in Frameworks */,
+				40B3DE42161C303C009292C3 /* UIKit.framework in Frameworks */,
+				40B3DE44161C303C009292C3 /* Foundation.framework in Frameworks */,
+				40B3DE46161C303C009292C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40B3DE32161C303C009292C3 = {
+			isa = PBXGroup;
+			children = (
+				40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */,
+				40B3DE8F161DC8F7009292C3 /* icon144.png */,
+				40B3DE47161C303C009292C3 /* virusGame */,
+				40B3DE40161C303C009292C3 /* Frameworks */,
+				40B3DE3E161C303C009292C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40B3DE3E161C303C009292C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B3DE3D161C303C009292C3 /* virusGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B3DE40161C303C009292C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B3DE81161DBC1B009292C3 /* AudioToolbox.framework */,
+				40B3DE41161C303C009292C3 /* UIKit.framework */,
+				40B3DE43161C303C009292C3 /* Foundation.framework */,
+				40B3DE45161C303C009292C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40B3DE47161C303C009292C3 /* virusGame */ = {
+			isa = PBXGroup;
+			children = (
+				4048D9D1161F20C50063D354 /* Config.h */,
+				40B3DE50161C303C009292C3 /* AppDelegate.h */,
+				40B3DE51161C303C009292C3 /* AppDelegate.m */,
+				40B3DE59161C303D009292C3 /* ViewController.h */,
+				40B3DE5A161C303D009292C3 /* ViewController.m */,
+				40B3DE5C161C303D009292C3 /* ViewController.xib */,
+				4048D9CA161F1E390063D354 /* ParametersViewController.h */,
+				4048D9CB161F1E390063D354 /* ParametersViewController.m */,
+				4048D9CC161F1E390063D354 /* ParametersViewController.xib */,
+				40B3DE48161C303C009292C3 /* Supporting Files */,
+			);
+			path = virusGame;
+			sourceTree = "<group>";
+		};
+		40B3DE48161C303C009292C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4048D9CF161F1E550063D354 /* parameters@2x.png */,
+				40B3DE91161DCBB4009292C3 /* landing@2x.png */,
+				40B3DE8B161DC5E5009292C3 /* hisTurn@2x.png */,
+				40B3DE8C161DC5E5009292C3 /* yourTurn@2x.png */,
+				40B3DE83161DC328009292C3 /* background@2x.png */,
+				40B3DE84161DC328009292C3 /* black@2x.png */,
+				40B3DE85161DC328009292C3 /* blank@2x.png */,
+				40B3DE86161DC328009292C3 /* white@2x.png */,
+				40B3DE49161C303C009292C3 /* virusGame-Info.plist */,
+				40B3DE4A161C303C009292C3 /* InfoPlist.strings */,
+				40B3DE4D161C303C009292C3 /* main.m */,
+				40B3DE4F161C303C009292C3 /* virusGame-Prefix.pch */,
+				40B3DE53161C303C009292C3 /* Default.png */,
+				40B3DE55161C303D009292C3 /* Default@2x.png */,
+				40B3DE57161C303D009292C3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B3DE3C161C303C009292C3 /* virusGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B3DE61161C303D009292C3 /* Build configuration list for PBXNativeTarget "virusGame" */;
+			buildPhases = (
+				40B3DE39161C303C009292C3 /* Sources */,
+				40B3DE3A161C303C009292C3 /* Frameworks */,
+				40B3DE3B161C303C009292C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = virusGame;
+			productName = virusGame;
+			productReference = 40B3DE3D161C303C009292C3 /* virusGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B3DE34161C303C009292C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "William Klein";
+			};
+			buildConfigurationList = 40B3DE37161C303C009292C3 /* Build configuration list for PBXProject "virusGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40B3DE32161C303C009292C3;
+			productRefGroup = 40B3DE3E161C303C009292C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B3DE3C161C303C009292C3 /* virusGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B3DE3B161C303C009292C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B3DE4C161C303C009292C3 /* InfoPlist.strings in Resources */,
+				40B3DE54161C303C009292C3 /* Default.png in Resources */,
+				40B3DE56161C303D009292C3 /* Default@2x.png in Resources */,
+				40B3DE58161C303D009292C3 /* Default-568h@2x.png in Resources */,
+				40B3DE5E161C303D009292C3 /* ViewController.xib in Resources */,
+				40B3DE87161DC328009292C3 /* background@2x.png in Resources */,
+				40B3DE88161DC328009292C3 /* black@2x.png in Resources */,
+				40B3DE89161DC328009292C3 /* blank@2x.png in Resources */,
+				40B3DE8A161DC328009292C3 /* white@2x.png in Resources */,
+				40B3DE8D161DC5E5009292C3 /* hisTurn@2x.png in Resources */,
+				40B3DE8E161DC5E5009292C3 /* yourTurn@2x.png in Resources */,
+				40B3DE90161DC8F7009292C3 /* icon144.png in Resources */,
+				40B3DE92161DCBB4009292C3 /* landing@2x.png in Resources */,
+				40B3DE94161DCBBA009292C3 /* Default-568h@2x.png in Resources */,
+				4048D9CE161F1E390063D354 /* ParametersViewController.xib in Resources */,
+				4048D9D0161F1E550063D354 /* parameters@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B3DE39161C303C009292C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B3DE4E161C303C009292C3 /* main.m in Sources */,
+				40B3DE52161C303C009292C3 /* AppDelegate.m in Sources */,
+				40B3DE5B161C303D009292C3 /* ViewController.m in Sources */,
+				4048D9CD161F1E390063D354 /* ParametersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40B3DE4A161C303C009292C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B3DE4B161C303C009292C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40B3DE5C161C303D009292C3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B3DE5D161C303D009292C3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40B3DE5F161C303D009292C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40B3DE60161C303D009292C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B3DE62161C303D009292C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "virusGame/virusGame-Prefix.pch";
+				INFOPLIST_FILE = "virusGame/virusGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.wklein.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40B3DE63161C303D009292C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "virusGame/virusGame-Prefix.pch";
+				INFOPLIST_FILE = "virusGame/virusGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.wklein.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B3DE37161C303C009292C3 /* Build configuration list for PBXProject "virusGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B3DE5F161C303D009292C3 /* Debug */,
+				40B3DE60161C303D009292C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B3DE61161C303D009292C3 /* Build configuration list for PBXNativeTarget "virusGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B3DE62161C303D009292C3 /* Debug */,
+				40B3DE63161C303D009292C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40B3DE34161C303C009292C3 /* Project object */;
+}
