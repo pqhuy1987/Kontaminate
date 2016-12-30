@@ -16,9 +16,6 @@
 		40B3DE4C161C303C009292C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE4A161C303C009292C3 /* InfoPlist.strings */; };
 		40B3DE4E161C303C009292C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE4D161C303C009292C3 /* main.m */; };
 		40B3DE52161C303C009292C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE51161C303C009292C3 /* AppDelegate.m */; };
-		40B3DE54161C303C009292C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE53161C303C009292C3 /* Default.png */; };
-		40B3DE56161C303D009292C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE55161C303D009292C3 /* Default@2x.png */; };
-		40B3DE58161C303D009292C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE57161C303D009292C3 /* Default-568h@2x.png */; };
 		40B3DE5B161C303D009292C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3DE5A161C303D009292C3 /* ViewController.m */; };
 		40B3DE5E161C303D009292C3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE5C161C303D009292C3 /* ViewController.xib */; };
 		40B3DE82161DBC1B009292C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B3DE81161DBC1B009292C3 /* AudioToolbox.framework */; };
@@ -30,7 +27,7 @@
 		40B3DE8E161DC5E5009292C3 /* yourTurn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE8C161DC5E5009292C3 /* yourTurn@2x.png */; };
 		40B3DE90161DC8F7009292C3 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE8F161DC8F7009292C3 /* icon144.png */; };
 		40B3DE92161DCBB4009292C3 /* landing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE91161DCBB4009292C3 /* landing@2x.png */; };
-		40B3DE94161DCBBA009292C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */; };
+		97E4741E1E16AF2A00BEBB96 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E4741D1E16AF2A00BEBB96 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +46,6 @@
 		40B3DE4F161C303C009292C3 /* virusGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "virusGame-Prefix.pch"; sourceTree = "<group>"; };
 		40B3DE50161C303C009292C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40B3DE51161C303C009292C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40B3DE53161C303C009292C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		40B3DE55161C303D009292C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		40B3DE57161C303D009292C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		40B3DE59161C303D009292C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		40B3DE5A161C303D009292C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40B3DE5D161C303D009292C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
@@ -64,7 +58,7 @@
 		40B3DE8C161DC5E5009292C3 /* yourTurn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yourTurn@2x.png"; sourceTree = "<group>"; };
 		40B3DE8F161DC8F7009292C3 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
 		40B3DE91161DCBB4009292C3 /* landing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing@2x.png"; sourceTree = "<group>"; };
-		40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97E4741D1E16AF2A00BEBB96 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +79,7 @@
 		40B3DE32161C303C009292C3 = {
 			isa = PBXGroup;
 			children = (
-				40B3DE93161DCBBA009292C3 /* Default-568h@2x.png */,
+				97E4741D1E16AF2A00BEBB96 /* Media.xcassets */,
 				40B3DE8F161DC8F7009292C3 /* icon144.png */,
 				40B3DE47161C303C009292C3 /* virusGame */,
 				40B3DE40161C303C009292C3 /* Frameworks */,
@@ -144,9 +138,6 @@
 				40B3DE4A161C303C009292C3 /* InfoPlist.strings */,
 				40B3DE4D161C303C009292C3 /* main.m */,
 				40B3DE4F161C303C009292C3 /* virusGame-Prefix.pch */,
-				40B3DE53161C303C009292C3 /* Default.png */,
-				40B3DE55161C303D009292C3 /* Default@2x.png */,
-				40B3DE57161C303D009292C3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,6 +170,11 @@
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "William Klein";
+				TargetAttributes = {
+					40B3DE3C161C303C009292C3 = {
+						DevelopmentTeam = JQNK74493B;
+					};
+				};
 			};
 			buildConfigurationList = 40B3DE37161C303C009292C3 /* Build configuration list for PBXProject "virusGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -203,9 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B3DE4C161C303C009292C3 /* InfoPlist.strings in Resources */,
-				40B3DE54161C303C009292C3 /* Default.png in Resources */,
-				40B3DE56161C303D009292C3 /* Default@2x.png in Resources */,
-				40B3DE58161C303D009292C3 /* Default-568h@2x.png in Resources */,
+				97E4741E1E16AF2A00BEBB96 /* Media.xcassets in Resources */,
 				40B3DE5E161C303D009292C3 /* ViewController.xib in Resources */,
 				40B3DE87161DC328009292C3 /* background@2x.png in Resources */,
 				40B3DE88161DC328009292C3 /* black@2x.png in Resources */,
@@ -215,7 +209,6 @@
 				40B3DE8E161DC5E5009292C3 /* yourTurn@2x.png in Resources */,
 				40B3DE90161DC8F7009292C3 /* icon144.png in Resources */,
 				40B3DE92161DCBB4009292C3 /* landing@2x.png in Resources */,
-				40B3DE94161DCBBA009292C3 /* Default-568h@2x.png in Resources */,
 				4048D9CE161F1E390063D354 /* ParametersViewController.xib in Resources */,
 				4048D9D0161F1E550063D354 /* parameters@2x.png in Resources */,
 			);
@@ -333,10 +326,14 @@
 		40B3DE62161C303D009292C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "virusGame/virusGame-Prefix.pch";
 				INFOPLIST_FILE = "virusGame/virusGame-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.wklein.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kontaminate.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -345,10 +342,14 @@
 		40B3DE63161C303D009292C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "virusGame/virusGame-Prefix.pch";
 				INFOPLIST_FILE = "virusGame/virusGame-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.wklein.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kontaminate.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
