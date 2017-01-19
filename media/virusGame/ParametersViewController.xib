@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ParametersViewController">
+            <connections>
+                <outlet property="levelAI" destination="27" id="63"/>
+                <outlet property="typeOfAI" destination="52" id="64"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="parameters.png" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Depth of Artificial Intelligence" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17">
+                    <rect key="frame" x="20" y="259" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="22"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Artificial Intelligence Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44">
+                    <rect key="frame" x="20" y="137" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="45"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                    <rect key="frame" x="20" y="314" width="280" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="1"/>
+                        <segment title="2"/>
+                        <segment title="3"/>
+                    </segments>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="saveSettings:" destination="-1" eventType="valueChanged" id="66"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="52">
+                    <rect key="frame" x="20" y="170" width="280" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Min-Max"/>
+                        <segment title="Alpha-Beta"/>
+                    </segments>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="saveSettings:" destination="-1" eventType="valueChanged" id="65"/>
+                    </connections>
+                </segmentedControl>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Back" id="83">
+                            <connections>
+                                <action selector="quit:" destination="-1" id="87"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" red="0.35478940219999999" green="0.11733063740000001" blue="0.010603205920000001" alpha="1" colorSpace="calibratedRGB"/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4" firstAttribute="trailing" secondItem="1" secondAttribute="trailing" id="9"/>
+                <constraint firstItem="4" firstAttribute="top" secondItem="1" secondAttribute="top" id="10"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="11"/>
+                <constraint firstItem="4" firstAttribute="bottom" secondItem="1" secondAttribute="bottom" id="12"/>
+                <constraint firstAttribute="trailing" secondItem="27" secondAttribute="trailing" constant="20" symbolic="YES" id="31"/>
+                <constraint firstItem="27" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="34"/>
+                <constraint firstItem="17" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="36"/>
+                <constraint firstAttribute="trailing" secondItem="17" secondAttribute="trailing" constant="20" symbolic="YES" id="37"/>
+                <constraint firstItem="17" firstAttribute="top" secondItem="1" secondAttribute="top" constant="259" id="39"/>
+                <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="226" id="40"/>
+                <constraint firstItem="44" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="49"/>
+                <constraint firstAttribute="trailing" secondItem="44" secondAttribute="trailing" constant="20" symbolic="YES" id="50"/>
+                <constraint firstItem="44" firstAttribute="top" secondItem="1" secondAttribute="top" constant="137" id="51"/>
+                <constraint firstAttribute="trailing" secondItem="52" secondAttribute="trailing" constant="20" symbolic="YES" id="56"/>
+                <constraint firstItem="52" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="58"/>
+                <constraint firstItem="52" firstAttribute="top" secondItem="1" secondAttribute="top" constant="170" id="62"/>
+                <constraint firstItem="82" firstAttribute="bottom" secondItem="1" secondAttribute="bottom" id="84"/>
+                <constraint firstItem="82" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="85"/>
+                <constraint firstItem="82" firstAttribute="trailing" secondItem="1" secondAttribute="trailing" id="86"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="parameters.png" width="320" height="568"/>
+    </resources>
+</document>
